@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const updateMessage = document.createElement('span');
         updateMessage.className = 'update-message';
         updateMessage.style.userSelect = "none";
-        updateMessage.innerHTML = `<span class='updating-refresh2 rotate' data-uk-icon='icon: refresh'></span> ${newVersion} 'e güncelleniyor.`;
+        updateMessage.innerHTML = `<span class='updating-refresh2 rotate' data-uk-icon='icon: future'></span> ${newVersion} 'e güncelleniyor.`;
 
         // Versiyon alanına mesajı ekle
         versionDisplay.appendChild(updateMessage);
